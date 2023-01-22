@@ -1,0 +1,230 @@
+/*
+
+Template: Geniot: Smart Product Landing Page
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+
+NOTE: This file contains the styling for responsive Template.
+
+*/
+
+/*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+@media(min-width:1601px) { }
+@media(max-width:1399px) {
+	.your-room .room-alexa { height: 70vh; }
+	.alexa-info h1 { font-size: 62px; }
+	.choose-watch .img-fluid.fade-in { width: 70%; }
+	.feature-list li p { margin-bottom: 0; }
+	.feature-list li { width: 15%; margin: 0 15px 30px; }
+	.panorama:after { bottom: -39px; }
+	.smart-home .smart-tab {top: 65%;}
+}
+@media(max-width:1365px) {
+	.your-room .room-alexa { height: 60vh; }
+	.set-up-box, .iq-feature-01 { padding: 0 15px; }
+	.chat { width: 80%; margin: 30px auto; }
+	.banner { margin-top: 60px; }
+	.circle-ripple { width: 12em; height: 12em; }
+	#fullpage .container-fluid { padding: 0 30px; }
+	.tabs-block .nav-tabs li { width: 17.5%; }
+	.panorama:after {bottom: -45px;}
+}
+@media(max-width:1199px) {
+	.alexa-info h1 { font-size: 46px; }
+	.re-mt-40 { margin-top: 40px; }
+	.info-chat h2 { font-size: 34px; }
+	.tabs-block .nav-tabs li { width: 16%; }
+	.panorama:after { bottom: -60px; }
+	.compatible-device li:nth-child(1) { left: -25%; }
+	.compatible-device li:nth-child(2) { right: 0; top: 0; }
+	.smart-home .smart-tab {top: 57%;}
+	.iq-fancy-box-01 h4{font-size: 20px; margin: 4px 0 0;}
+	.iq-fancy-box-01.text-right i{font-size: 40px;}
+	.iq-amazing-tab .tab-content{padding: 74px 30px 82px 36px;}
+	.iq-amazing-tab .nav-tabs li{margin-top: 20px;}
+	.iq-fancy-box-01 i{font-size: 40px;}
+	.iq-bannerr .bannerr-img{top: 46%;}
+	.iq-bannerr .banner-text h1{font-size:42px;line-height: 50px;}
+	.smart-tab{left: 29%;}
+	.tabs-block .nav-tabs li a{min-height: 190px; padding: 45px 15px;}
+
+}
+@media(max-width:1023px) {
+	.section.fp-section .watch-bg-right, .section.fp-section .watch-bg-left { height: 55%; top: 50%; margin-top: -200px; }
+	.tab-content.smart-tabs { right: 49px; margin-top: -114px; width: 233px; }
+	.watch-features .tab-content.smart-tabs { right: 53px; margin-top: -116px; width: 232px; }
+	.watchs-face .tab-content.smart-tabs { right: 46px; margin-top: -111px; width: 225px; }
+	.stay-connected .tab-content.smart-tabs { right: 60px; margin-top: -113px; width: 211px; }
+	.info-chat h2 { font-size: 30px; }
+	.error p { padding: 0; }
+	.tooltip-item { margin: -15px 0 0 -8px; }
+	.tooltip:first-child { left: 30%; }
+	.tooltip:nth-child(4) { right: 32%; }
+	.tabs-block .nav-tabs li a { padding: 50px 15px; }
+	.tv-banner .chat { width: 28%; }
+	.iq-command .overview-block-ptb.parallax { padding: 0; }
+	.alexa-Client #animated_div img { margin-top: 33%; }
+	.setup-box img { width: 100%; }
+	.alexa-title { position: relative; }
+	.info-chat img { width: 100%; }
+	.how-to-use img { margin-bottom: 80px; }
+	.how-to-use .scrollme-01 { bottom: 0; }
+	.nav-pills .nav-link.home-link{width: 80px;height: 80px;}
+	.nav-pills .nav-link.home-link i{font-size: 30px; line-height: 42px;}
+}
+@media(max-width:992px) {
+	header { z-index: 9999; }
+	h1 { font-size: 42px; font-style: normal; line-height: 52px; }
+	h2 { font-size: 34px; font-style: normal; line-height: 44px; }
+	.navbar-light .navbar-toggler { box-shadow: none; border: 1px solid #00c0ff; background: #00c0ff; padding: 5px 10px; color: #fff; font-size: 28px; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; }
+	header.menu-sticky  .navbar-toggler { font-size: 22px; }
+	header .navbar .navbar-brand img { height: 50px; }
+	header .navbar.navbar-light .navbar-nav { margin-top: 15px; background: #eee; }
+	header .navbar.navbar-light .navbar-nav li { padding: 0; }
+	header .navbar.navbar-light .navbar-nav li a { padding: 10px 15px; }
+	header .navbar.navbar-light .navbar-nav li a { color: #222222; }
+	header .navbar.navbar-light .navbar-nav li a.active, header .navbar.navbar-light .navbar-nav li a:hover { color: #ffffff; background: #00c0ff; }
+	.your-room .room-info { padding: 60px; }
+	.your-room .room-alexa { height: 36vh; }
+	.your-room .room-alexa img { bottom: -31%; }
+	.re-9-mt-40 { margin-top: 40px !important; }
+	.re-9-mb-40 { margin-bottom: 40px !important; }
+	.set-up-box.stap-left:before, .set-up-box.stap-right:before { display: none; }
+	.set-up-box h4 { margin-top: 0; }
+	.iq-feature.first-l { margin-right: 0; margin-top: 0; }
+	.iq-feature.second-l { margin-right: 0; }
+	.iq-feature.first-r { margin-left: 0; margin-top: 0; }
+	.iq-feature.second-r { margin-left: 0; }
+	#animated_div { background-size: inherit; }
+	header#header-fullpage { background: #fff; }
+	.panorama:after { bottom: -64px; }
+	.hands-block, .hands-block h2 { color: #fff; }
+	#features .col-md-4{max-width: 50%; flex: none;}
+	.iq-amazing-tab .nav-tabs li a.nav-link.active.round-right .iq-fancy-box-01:before{display: none;}
+	.iq-amazing-tab .nav-tabs li a.nav-link.active.round-right .iq-fancy-box-01:after{display: none;}
+	.iq-amazing-tab .nav-tabs li a.nav-link.active .iq-fancy-box-01:before{display: none;}
+	.iq-amazing-tab .nav-tabs li a.nav-link.active .iq-fancy-box-01:after{display: none;}
+	.iq-bannerr .banner-text h1{font-size: 38px; line-height: 48px;}
+	.iq-bannerr .bannerr-img{top: 52%;}
+	.nav-pills .nav-link.home-link{ line-height: 83px;}
+	.iq-por{overflow: hidden;}
+
+}
+@media(max-width:979px) {
+	.alexa-tv .scrollme-01 { bottom: 0px; }
+	.tooltip-item { margin: -8px 0 0 -15px; }
+	.section.fp-section .watch-bg-right, .section.fp-section .watch-bg-left { height: 45%; margin-top: -240px; }
+	.tab-content.smart-tabs { right: 39px; margin-top: -96px; width: 178px; }
+	.watch-features .tab-content.smart-tabs { right: 44px; margin-top: -86px; width: 174px; }
+	.watchs-face .tab-content.smart-tabs { right: 38px; margin-top: -158px; width: 170px; }
+	.stay-connected .tab-content.smart-tabs { right: 49px; margin-top: -94px; width: 158px; }
+	.tooltip:first-child { left: 25%; }
+	.tooltip:nth-child(4) { right: 26%; }
+	.tabs-block .nav-tabs li { margin: 0px 5px; }
+	.panorama:after { bottom: -75px; }
+	.compatible-device li:nth-child(3) { width: 50%; }
+	.compatible-device li:nth-child(2) { width: 38%; }
+	.info-share li { margin: 0 3px; }
+	#features .col-md-4{max-width: 50%; flex: none;}
+	.smart-home .smart-tab{top: 50%; left: 28%;}
+	.iq-por .nav-tabs  li a{font-size: 0px;}
+	.tabs-block .nav-tabs li a i{font-size: 50px;}
+	.tabs-block .nav-tabs li a{    min-height: 150px; padding: 40px 15px; line-height: 0px;}
+}
+@media(max-width:767px) {
+	 header{position:static;}
+	 .info-chat{overflow: hidden;}
+	 .banner { margin-top: 0px; }
+	 .nav-pills .nav-link.home-link{line-height: 44px;}
+	 .iq-amazing-tab .nav-tabs li:first-child{margin-top:20px;}
+	.full-width .container-fluid { padding: 0 15px; }
+	.spin-me-round { height: 320px; width: 320px; }
+	.your-room .room-info { padding: 60px 0; }
+	.info-chat .row .col-sm-6.align-self-center { padding: 40px 15px; }
+	.alexa-tv .tv-box { padding-bottom: 40px; }
+	.chat { width: 100%; }
+	.re-4-mt-40 { margin-top: 40px !important; }
+	.section.fp-section { padding: 100px 0 0; }
+	.section.fp-section.section-video, .section.footer.fp-section { padding: 100px 0; }
+	.slide-in-bottom .iq-feature-02 { border: none !important; margin-bottom: 40px; }
+	.section.fp-section .watch-bg-right, .section.fp-section .watch-bg-left { height: auto; margin-top: 0; width: 100%; opacity: 0; animation: none !important; }
+	.fp-section, .fp-slide, .fp-tableCell { height: auto !important; text-align: center; }
+	.fp-section .text-right { text-align: center !important; }
+	.bg-effect img { opacity: 1; }
+	.fade-in-right, .slide-in-bottom, .section.fp-section.active .fade-in { animation: none !important; }
+	.tab-content.smart-tabs { right: 0; width: 243px; left: -18px; margin: -119px auto 0; }
+	.watch-features .tab-content.smart-tabs { right: 0; width: 233px; left: -24px; margin: -116px auto 0; }
+	.watchs-face .tab-content.smart-tabs { right: 0; width: 230px; left: -2px; margin: -114px auto 0; }
+	.stay-connected .tab-content.smart-tabs { right: 0; width: 219px; left: -12px; margin: -118px auto 0; }
+	.choose-watch .img-fluid.fade-in { width: 100%; }
+	.feature-list li { width: 42%; }
+	.nav-tabs.smart-tabs { border: none; margin: 20px 0; text-align: center; display: inline-block; width: 100%; }
+	.nav-tabs.smart-tabs .nav-item { display: inline-block; }
+	.chat-banner { position: absolute; margin: 20px auto 0; width: 70%; }
+	.chat { font-size: 14px; line-height: 24px; width: 76%; }
+	.alexa-title { padding: 0 15px 10px; }
+	.tooltip:first-child { left: 19%; }
+	.tooltip:nth-child(4) { right: 19%; }
+	.tooltip-item { margin: -18px 0 0 -20px; }
+	.tabs-block .nav-tabs li a { padding: 35px 10px 0; font-size: 0; }
+	.tabs-block .nav-tabs li a i { font-size: 22px; }
+	.tabs-block .nav-tabs { flex-direction: inherit !important; }
+	.tabs-block .nav-tabs li { width: 18%; }
+	.tabs-block .nav-tabs li:last-child { margin-right: 0; }
+	#animated_div { background-size: 100%; }
+	.alexa-Client #animated_div img { margin-top: 10%; width: 50%; }
+	.panorama:after { bottom: -93px; }
+	.compatible-device li:nth-child(1) { width: 23%; }
+	#features .col-md-4{max-width: 92%; flex: none;}
+	.iq-amazing-tab .nav-tabs li a{left:25px;}
+	.iq-amazing-tab .nav-tabs li a.nav-link.active, .iq-amazing-tab .nav-tabs li a.nav-link.active:hover, .iq-amazing-tab .nav-tabs li a.nav-link.active:focus{left: 25px;}
+	.iq-bannerr .bannerr-img{width: 16%;}
+	.nav-pills .nav-link.home-link{width: 40px;height: 40px;}
+	.smart-home .smart-tab{left: 30%; top: 47%;}
+	.smart-home .smart-tab .nav-link {padding: 0;}
+	.nav-pills .nav-link.home-link i{font-size: 16px;}
+	.overview-block-ptb{padding: 50px 0;}
+	.overview-block-pb{padding-bottom: 50px}
+	.overview-block-pt{padding-top:50px;}
+	.tabs-block .nav-tabs li a{min-height:92px;}
+	.tips-box .list-inline-item:not(:last-child){margin-right: .5rem;}
+	.pulse-button { width: 50px; height: 50px; line-height: 50px; color: #fff; font-size: 10px; }
+
+}
+@media(max-width:479px) {
+	.panorama:after{bottom: -103px;}
+	.tabs-block .nav-tabs .nav-item{margin-bottom: 20px;}
+	.tabs-block .nav-tabs li{margin-right: 30px;}
+	.set-up-box .step-img{margin-bottom: 30px;}
+	.tv-banner .chat.ct4{bottom: 12px;}
+	h2{font-size: 28px; line-height:38px;}
+	h3{font-size: 26px; line-height:36px;}
+	.spin-me-round { height: 220px; width: 220px; }
+	.dummy.dummy-image { display: none; }
+	.alexa-info h1 { font-size: 28px; }
+	.line-height-36 { line-height: 30px; }
+	.tab-content.smart-tabs { right: 0; width: 215px; left: -14px; margin: -105px auto 0; }
+	.watch-features .tab-content.smart-tabs { right: 0; width: 205px; left: -21px; margin: -103px auto 0; }
+	.watchs-face .tab-content.smart-tabs { right: 0; width: 205px; left: -2px; margin: -102px auto 0; }
+	.stay-connected .tab-content.smart-tabs { right: 0; width: 193px; left: -12px; margin: -106px auto 0; }
+	.feature-list li { width: 100%; margin: 0 0 30px; }
+	.login-form { padding: 20px 20px 20px; }
+	.login-form .info-share li { width: 28%; }
+	.tv-banner .chat.ct3 { bottom: 0; }
+	.tv-banner .chat.ct3 { bottom: 0; }
+	.tabs-block .nav-tabs li { width: 21%; }
+	.chat { font-size: 12px; line-height: 20px; padding: 5px 5px; }
+	.chat-banner { margin: 0 auto 0; width: 80%; }
+	.smart-home .smart-tab{top: 32%; left: 22%;}
+	.overview-block-ptb{padding: 50px 0;}
+	.overview-block-pb{padding-bottom: 50px}
+	.overview-block-pt{padding-top:50px;}
+	.iq-fancy-box-01{padding: 10px 18px;}
+	.smart-home .smart-tab{top: 44%;}
+	.iq-amazing-tab .nav-tabs li a.nav-link.active, .iq-amazing-tab .nav-tabs li a.nav-link.active:hover, .iq-amazing-tab .nav-tabs li a.nav-link.active:focus{left: 14px;}
+}
