@@ -588,7 +588,8 @@ Hands free
 /*---------------------------------------------------------------------
 Contact Us
 -----------------------------------------------------------------------*/
-.iq-our-from .iq-map iframe { border: 0px; width: 100%; float: left; height: 520px; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); }
+/* .iq-our-from .iq-map iframe { border: 0px; width: 100%; float: left; height: 520px; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); } */
+.iq-our-from .iq-map iframe { border: 0px; width: 100%; float: left; height: 520px; }
 .iq-our-from .formmessage { display: none; }
 .iq-our-from .contact-form .section-field { width: 100%; float: left; }
 .iq-our-from .contact-form textarea { min-height: 140px; border: 1px solid #d4d4d4; background: #d4d4d4; width: 100%; padding-left: 15px; }
