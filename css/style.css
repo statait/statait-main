@@ -55,7 +55,7 @@ header .navbar .navbar-brand { padding: 0; }
 header .navbar .navbar-brand img { height: 50px; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; }
 header .navbar.navbar-light .navbar-nav li { padding: 0 15px; }
 header .navbar.navbar-light .navbar-nav li a { font-size: 16px; padding: 0; color: #a3a3a3; font-family: 'Asap', sans-serif; }
-header .navbar.navbar-light .navbar-nav li a.active, header .navbar.navbar-light .navbar-nav li a:hover { color: #00c9ff; }
+header .navbar.navbar-light .navbar-nav li a.active, header .navbar.navbar-light .navbar-nav li a:hover { color: #129e25; }
 header .navbar.navbar-light .nav li { padding: 0 8px; }
 header .navbar.navbar-light .nav li a { font-size: 22px; line-height: normal; padding: 0; color: #a3a3a3; }
 header.menu-sticky { position: fixed; padding: 10px 0; top: 0; left: 0; display: inline-block; width: 100%; background: #fff; -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1); }
@@ -202,7 +202,7 @@ Tabs
 .tabs-block .nav-tabs li a { padding: 75px 15px; background: #FAFAFA; color: #828286; text-align: center; border-radius: 0; border: none; }
 .tabs-block .nav-tabs li a i { display: block; font-size: 30px; margin-bottom: 5px; }
 .tabs-block .nav-tabs .nav-item { margin-bottom: 0; }
-.tabs-block .nav-tabs .nav-item.show .nav-link, .tabs-block .nav-tabs .nav-link.active { border: none; background: #00c9ff; color: #fff; }
+.tabs-block .nav-tabs .nav-item.show .nav-link, .tabs-block .nav-tabs .nav-link.active { border: none; background: #26a715; color: #fff; }
 
 /*---------------------------------------------------------------------
 Footer
@@ -277,8 +277,8 @@ Product
 Product-home
 -----------------------------------------------------------------------*/
 .product-home { background: #f4f4f4;padding: 30px 30px; }
-.btn-buy{padding: 5px 44px; background-color: transparent; border: 1px solid #00c9ff;margin-top: 15px ; display: inline-block;}
-.btn-buy:hover{padding: 5px 44px; background-color:#00c9ff ; margin-top: 15px ; color: #fff;}
+.btn-buy{padding: 5px 44px; background-color: transparent; border: 1px solid #13a03d;margin-top: 15px ; display: inline-block;}
+.btn-buy:hover{padding: 5px 44px; background-color:#23b848 ; margin-top: 15px ; color: #fff;}
 .home-btn:hover{color:#00c9ff ;}
 
 /*---------------------------------------------------------------------
