@@ -636,7 +636,7 @@ border-radius: 0 3px 3px 0; padding: 11px 20px;}
                             Special Item Effect
 -----------------------------------------------------------------------*/
 .item-effect { position: relative; overflow: hidden; }
-.item-effect .item { position: relative; float: left; width: 33.33333333333%; background-color: #128EF3; overflow: hidden; }
+.item-effect .item { position: relative; float: left; width: 33.33333333333%;  overflow: hidden; }
 .item-effect .item:after { content: ''; display: block; background-color: inherit; opacity: 0.9; width: 100%; height: 100%; position: absolute; top: 0; left: 0; -webkit-transform: scale(2) translateX(-75%) translateY(-75%) translateZ(0) rotate(-28deg); transform: scale(2) translateX(-75%) translateY(-75%) translateZ(0) rotate(-28deg); transition: -webkit-transform 3s cubic-bezier(0.23, 1, 0.32, 1); transition: transform 3s cubic-bezier(0.23, 1, 0.32, 1); transition: transform 3s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 3s cubic-bezier(0.23, 1, 0.32, 1); }
 .item-effect .item:hover:after { -webkit-transform: scale(2) translateX(0%) translateY(0%) translateZ(0) rotate(-28deg); transform: scale(2) translateX(0%) translateY(0%) translateZ(0) rotate(-28deg); }
 .item-effect .item:hover .item-image { -webkit-transform: scale(1.2) translateZ(0); transform: scale(1.2) translateZ(0); }
